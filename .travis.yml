@@ -1,0 +1,18 @@
+
+language: python
+python:
+  3.6
+
+script:
+  ./.make.sh
+
+before_deploy:
+  cd jupyter-book/_build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  api_key: 
+    secure: $GITHUB_TOKEN
+  on: 
+    branch: master
