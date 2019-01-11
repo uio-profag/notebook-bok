@@ -9,13 +9,11 @@ script:
   make build
 
 before_deploy:
-  mv .jupyter-book/_build .
-  cd _build
+  cd .jupyter-book/_build 
 
 deploy:
   provider: pages
   skip_cleanup: true
-  api_key: 
-    secure: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN
   on: 
     branch: master
