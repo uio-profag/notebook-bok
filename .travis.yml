@@ -6,10 +6,7 @@ python:
 cache: bundler
 
 script:
-  make build
-
-before_deploy:
-  cd .jupyter-book/_build 
+  make build && cp -r .jupyter-book/* .
 
 deploy:
   provider: pages
