@@ -3,11 +3,13 @@ language: python
 python:
   3.6
 
+install:  
+
 script:
   bash -x .make.sh
 
 before_deploy:
-  cd jupyter-book/_build
+  cd .jupyter-book/_build
 
 deploy:
   provider: pages
