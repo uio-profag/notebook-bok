@@ -1,1 +1,7 @@
 nbconvert
+yaml
+pandas
+numpy
+datascience
+folium
+matplotlib
