@@ -3,11 +3,14 @@ language: python
 python:
   3.6
 
+cache: bundler
+
 script:
   make build
 
 before_deploy:
-  cd .jupyter-book/_build
+  mv .jupyter-book/_build .
+  cd _build
 
 deploy:
   provider: pages
