@@ -4,7 +4,7 @@ python:
   3.6
 
 script:
-  ./.make.sh
+  bash -x .make.sh
 
 before_deploy:
   cd jupyter-book/_build
