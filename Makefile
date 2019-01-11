@@ -4,7 +4,7 @@ build:
 	rm -rf .jupyter-book/_build/*
 	cp -r content .jupyter-book/
 	cp toc.yml .jupyter-book/_data/
-	cp .jupyter-book/_config.yml .
+	rm .jupyter-book/_config.yml .
 	cd .jupyter-book && make install && make book
 
 clean: 
