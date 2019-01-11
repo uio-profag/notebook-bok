@@ -1,5 +1,5 @@
 nbconvert
-yaml
+pyyaml
 pandas
 numpy
 datascience
