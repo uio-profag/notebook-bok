@@ -1,6 +1,7 @@
 build:
 	git clone https://github.com/jupyter/jupyter-book .jupyter-book
 	rm -rf .jupyter-book/content
+	rm -rf .jupyter-book/_build/*
 	cp -r content .jupyter-book/
 	cp toc.yml .jupyter-book/_data/
 	cp .jupyter-book/_config.yml .
