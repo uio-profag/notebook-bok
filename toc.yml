@@ -1,4 +1,8 @@
 
-- title: Home
+- title: "Part 1"
   url: /index
   not_numbered: true
+  sections:
+  - title: Introduksjon
+    url: /part_1/introduksjon
+    not_numbered: true
