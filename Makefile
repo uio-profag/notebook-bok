@@ -10,6 +10,7 @@ build_noclone:
 	rm -rf .jupyter-book/content
 	rm -rf .jupyter-book/_build/*
 	cp -r content .jupyter-book/
+	cp -r assets .jupyter-book/
 	cp toc.yml .jupyter-book/_data/
 	cp _config.yml .jupyter-book/_config.yml
 	ls .jupyter-book/content/part_1
