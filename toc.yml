@@ -1,0 +1,21 @@
+
+- title: "Velkommen til kurset"
+  url: /index
+  not_numbered: true
+
+- title: "Part 1"
+  url: /part_1/index
+  not_numbered: true
+  sections:
+  - title: "Introduksjon"
+    url: /part_1/introduksjon
+    not_numbered: true
+
+- title: "Part 2"
+  url: /part_2/index
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: "Funksjoner" 
+    url: /part_2/funksjoner
+    not_numbered: true
